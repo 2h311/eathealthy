@@ -1,4 +1,4 @@
-*,
+cls *,
 *::after,
 *::before {
   margin: 0;
@@ -125,7 +125,8 @@ html {
   font-family: inherit;
   padding: 1.65rem 1.1rem;
 }
-.footer__newsletter-email:focus, .footer__newsletter-email:active {
+.footer__newsletter-email:focus,
+.footer__newsletter-email:active {
   outline: none;
 }
 .footer__newsletter-subscribe {
