@@ -66,13 +66,13 @@
 
   &__socials {
     display: flex;
-    gap: 2rem;
+    gap: 2.25rem;
   }
 
   &__social {
     & svg {
-      width: 2.5rem;
-      height: 2.5rem;
+      width: 2.45rem;
+      height: 2.45rem;
     }
   }
 
@@ -92,6 +92,7 @@
     &-list {
       cursor: pointer;
       display: inline-block;
+      text-transform: capitalize;
     }
   }
 
