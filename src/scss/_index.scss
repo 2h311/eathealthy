@@ -1,7 +1,6 @@
 *,
 *::after,
 *::before {
-  font-size: 62.5%;
   margin: 0;
   padding: 0;
 }
@@ -13,6 +12,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html {
+  font-size: 62.5%;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.logo {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 1.65rem;
+  padding: 1.25rem 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  background-color: $color-white;
+
+  &__svg {
+    & > svg {
+      height: 2.25rem;
+      width: 2.25rem;
+    }
+  }
+
+  &__text {
+    font-weight: 600;
+  }
 }
