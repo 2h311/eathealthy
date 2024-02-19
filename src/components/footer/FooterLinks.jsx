@@ -1,24 +1,13 @@
 import React from "react";
 
 import FooterLinkGroup from "./FooterLinkGroup";
+import { footerlinks } from "../../helpers/data";
 
 const FooterLinks = () => {
   return (
     <ul className="footer__links">
-      <FooterLinkGroup
-        links={[
-          { href: "", text: "home" },
-          { href: "", text: "contact us" },
-          { href: "", text: "about us" },
-        ]}
-      />
-      <FooterLinkGroup
-        links={[
-          { href: "", text: "blog" },
-          { href: "", text: "forum" },
-          { href: "", text: "products" },
-        ]}
-      />
+      <FooterLinkGroup links={footerlinks.slice(0, 3)} />
+      <FooterLinkGroup links={footerlinks.slice(3)} />
     </ul>
   );
 };

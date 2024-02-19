@@ -1,13 +1,16 @@
 import React from "react";
+
 import LogoSVG from "./Logo";
 
-const FullLogo = () => {
+const FullLogo = ({ isFooter }) => {
+  const classNameToShow = `${isFooter ? "logo logo--extra" : "logo"}`;
+
   return (
-    <div className="logo">
+    <div className={classNameToShow}>
       <span className="logo__svg">
         <LogoSVG />
       </span>
-      <span className="logo__text">EatHealthy.com</span>
+      <span className="logo__text">EatHealthy</span>
     </div>
   );
 };

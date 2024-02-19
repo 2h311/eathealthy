@@ -24,9 +24,11 @@ html {
   gap: 0.65rem;
   font-size: 1.65rem;
   padding: 1.25rem 1.2rem;
+  color: #1e5dbc;
+}
+.logo--extra {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   background-color: #ffffff;
-  color: #1e5dbc;
 }
 .logo__svg > svg {
   height: 2.25rem;
@@ -144,6 +146,63 @@ html {
 }
 .footer__newsletter-subscribe:hover {
   font-size: 1.65rem;
+}
+
+.navbar {
+  height: 9.5rem;
+  padding: 4.5rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 500;
+}
+.navbar__container {
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  display: inherit;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar__part--2 {
+  width: 50%;
+}
+.navbar__list {
+  list-style: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  cursor: pointer;
+}
+.navbar__list:active {
+  font-weight: 600;
+}
+.navbar__buttons {
+  display: flex;
+  gap: 1.62rem;
+}
+.navbar__button {
+  width: 10rem;
+  font-weight: 600;
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 1rem 2.2rem;
+  border-radius: 5px;
+  border: 1px solid #1e5dbc;
+  cursor: pointer;
+}
+.navbar__button--login {
+  color: #1e5dbc;
+  background-color: #ffffff;
+}
+.navbar__button--register {
+  color: #ffffff;
+  background-color: #1e5dbc;
 }
 
 /*# sourceMappingURL=main.css.map */

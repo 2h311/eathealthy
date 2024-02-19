@@ -6,9 +6,9 @@ import Navbar from "./components/navbar/Navbar";
 const App = () => {
   return (
     <>
-      <h1>App</h1>
-      {/* <Footer /> */}
+      {/* <h1>App</h1> */}
       <Navbar />
+      <Footer />
     </>
   );
 };

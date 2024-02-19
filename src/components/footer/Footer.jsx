@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="footer__container">
         <section className="footer__up">
           <div className="footer__div footer__div--1">
-            <FullLogo />
+            <FullLogo isFooter={true} />
             <div className="footer__primary-goal">
               Our primary goal is to give individuals with a variety of tools
               and means via which they may obtain sufficient nutrients from

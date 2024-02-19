@@ -1,0 +1,71 @@
+.navbar {
+  height: 9.5rem;
+  padding: 4.5rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // border: 1px solid #000;
+  z-index: 500;
+
+  &__container {
+    height: 80%;
+    // border-radius: 4.5px;
+    width: $default-inner-width;
+    background-color: $color-white;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+    display: inherit;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__part {
+    &--2 {
+      width: 50%;
+    }
+  }
+
+  &__list {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    gap: 6rem;
+    justify-content: center;
+    cursor: pointer;
+    // text-align: center;
+    // border: 1px solid #333;
+
+    &:active {
+      font-weight: 600;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 1.62rem;
+  }
+
+  &__button {
+    width: 10rem;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 1.5rem;
+    padding: 1rem 2.2rem;
+    border-radius: 5px;
+    border: 1px solid $color-primary;
+    cursor: pointer;
+
+    &--login {
+      color: $color-primary;
+      background-color: $color-white;
+    }
+
+    &--register {
+      color: $color-white;
+      background-color: $color-primary;
+    }
+  }
+}
