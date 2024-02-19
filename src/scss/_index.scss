@@ -26,6 +26,7 @@ html {
   padding: 1.25rem 1.2rem;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   background-color: $color-white;
+  color: $color-primary;
 
   &__svg {
     & > svg {
