@@ -21,6 +21,8 @@
   }
 
   &__part {
+    // border: 1px solid #000;
+
     &--2 {
       width: 50%;
     }
@@ -32,10 +34,9 @@
     font-size: 1.5rem;
     font-weight: 500;
     display: flex;
-    gap: 6rem;
+    gap: 4.45rem;
     justify-content: center;
     cursor: pointer;
-    // text-align: center;
     // border: 1px solid #333;
 
     &:active {
