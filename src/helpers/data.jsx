@@ -15,3 +15,21 @@ export const footerlinks = [
   { href: "", text: "forum" },
   { href: "", text: "products" },
 ];
+
+// \assets\images
+// pexels-ash-376464.jpg
+// pexels-john-finkelstein-1630588.jpg
+// pexels-monicore-1391487.jpg
+
+import path from "path";
+export const recentPosts = [
+  {
+    isARecentPost: true,
+    title: "Health Benefit of Vitamin A",
+    description: "",
+    likes: 25,
+    link: "",
+    readingTime: "5 mins read",
+    postImage: "",
+  },
+];

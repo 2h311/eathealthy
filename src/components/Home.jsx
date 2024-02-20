@@ -7,9 +7,9 @@ import RecentPost from "./RecentPost";
 const Home = () => {
   return (
     <>
-      {/* <Hero /> */}
-      {/* <Gist /> */}
-      <RecentPost />
+      <Hero />
+      <Gist />
+      {/* <RecentPost /> */}
     </>
   );
 };
