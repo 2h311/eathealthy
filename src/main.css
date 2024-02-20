@@ -160,7 +160,7 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient(to right bottom, #d8dfe9, transparent), url("./assets/images/balance-your-diet.jpg");
+  background: linear-gradient(to right, rgba(216, 223, 233, 0.2), transparent), url("./assets/images/balance-your-diet.jpg");
   background-repeat: no-repeat;
   background-size: 52%;
   background-position: top right;
