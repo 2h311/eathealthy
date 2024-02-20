@@ -1,7 +1,7 @@
 import React from "react";
 
 const RecentPost = () => {
-  return <div>RecentPost</div>;
+  return <section>RecentPost</section>;
 };
 
 export default RecentPost;
