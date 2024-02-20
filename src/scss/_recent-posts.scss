@@ -1,0 +1,17 @@
+.recent-post {
+  width: 100%;
+  height: 52rem;
+  border: 1px solid #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    height: 100%;
+    width: $default-inner-width;
+    border: 1px solid #333;
+
+    display: inherit;
+  }
+}
