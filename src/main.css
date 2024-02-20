@@ -183,6 +183,7 @@ html {
   width: 35%;
   display: block;
   font-size: 2.1rem;
+  color: #534847;
 }
 .home__button {
   border: 0;
@@ -227,9 +228,13 @@ html {
   gap: 4.45rem;
   justify-content: center;
   cursor: pointer;
+  color: #534847;
 }
 .navbar__list:active {
   font-weight: 600;
+}
+.navbar__list-item:hover {
+  color: #000;
 }
 .navbar__buttons {
   display: flex;
@@ -252,6 +257,48 @@ html {
 .navbar__button--register {
   color: #ffffff;
   background-color: #1e5dbc;
+}
+
+.gist {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9fcff;
+}
+.gist__container {
+  height: 75%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gist__part {
+  color: #534847;
+}
+.gist__part--1 {
+  width: 40%;
+}
+.gist__part--2 {
+  line-height: 3rem;
+  width: 55%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.gist__heading {
+  font-size: 6.65rem;
+  border-bottom: 6.5px solid #1e5dbc;
+}
+.gist__small {
+  display: inline-block;
+  font-size: 2.3rem;
+}
+.gist__small--2 {
+  color: #1e5dbc;
 }
 
 /*# sourceMappingURL=main.css.map */

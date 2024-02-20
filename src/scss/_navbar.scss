@@ -37,10 +37,17 @@
     gap: 4.45rem;
     justify-content: center;
     cursor: pointer;
+    color: $color-grey;
     // border: 1px solid #333;
 
     &:active {
       font-weight: 600;
+    }
+
+    &-item {
+      &:hover {
+        color: #000;
+      }
     }
   }
 

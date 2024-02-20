@@ -12,6 +12,7 @@
   background-repeat: no-repeat;
   background-size: 52%;
   background-position: top right;
+  // border: 1px solid #333;
 
   &__text {
     display: flex;
@@ -35,6 +36,7 @@
     width: 35%;
     display: block;
     font-size: 2.1rem;
+    color: $color-grey;
   }
 
   &__button {

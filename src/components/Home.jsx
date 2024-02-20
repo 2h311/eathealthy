@@ -6,7 +6,7 @@ import Gist from "./Gist";
 const Home = () => {
   return (
     <>
-      <Hero />;
+      <Hero />
       <Gist />
     </>
   );
