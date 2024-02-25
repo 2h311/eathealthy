@@ -33,9 +33,9 @@ export const recentPosts = [
   },
   {
     isARecentPost: true,
-    title: "Health Benefit of Vitamin A",
+    title: "Tapping the Healing Power of Food",
     description:
-      "Vitamin A is an essential nutrient that supports healthy skin and maintains the immune system. It’s also known as retinol and can be found in foods like...",
+      "IFT's Anna Rosales reports back on the inaugural Food is Medicine Summit, a key milestone in the national strategy to end hunger and reduce chronic disease by 2030...",
     likes: 12,
     link: "",
     readingTime: "3.5 mins",
@@ -43,12 +43,12 @@ export const recentPosts = [
   },
   {
     isARecentPost: false,
-    title: "Health Benefit of Vitamin A",
+    title: "Good Gut Feelings",
     description:
-      "Vitamin A is an essential nutrient that supports healthy skin and maintains the immune system. It’s also known as retinol and can be found in foods like...",
-    likes: 22,
+      "This column considers how current research continues to uncover specific gut health benefits of ingredients, including HMOs, prebiotics, probiotics, and postbiotics.",
+    likes: 20,
     link: "",
-    readingTime: "6 mins",
+    readingTime: "12 mins",
     postImage: PexelsMonicoreImage,
   },
 ];
