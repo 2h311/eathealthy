@@ -1,4 +1,6 @@
-import { joinFilePath } from "../../helpers/helperfunctions";
+import PexelsAshImage from "../../assets/images/pexels-ash-376464.jpg";
+import PexelsJohnImage from "../../assets/images/pexels-john-finkelstein-1630588.jpg";
+import PexelsMonicoreImage from "../../assets/images/pexels-monicore-1391487.jpg";
 
 export const navbarLinks = [
   { href: "", link: "home" },
@@ -18,8 +20,6 @@ export const footerlinks = [
   { href: "", text: "products" },
 ];
 
-import PexelAshImage from "../images/pexels-ash-376464.jpg";
-
 export const recentPosts = [
   {
     isARecentPost: true,
@@ -29,7 +29,7 @@ export const recentPosts = [
     likes: 25,
     link: "",
     readingTime: "5 mins read",
-    postImage: <PexelAshImage />,
+    postImage: PexelsAshImage,
   },
   {
     isARecentPost: true,
@@ -39,11 +39,7 @@ export const recentPosts = [
     likes: 12,
     link: "",
     readingTime: "3.5 mins read",
-    postImage: joinFilePath(
-      "assets",
-      "images",
-      "pexels-john-finkelstein-1630588.jpg"
-    ),
+    postImage: PexelsJohnImage,
   },
   {
     isARecentPost: false,
@@ -53,6 +49,6 @@ export const recentPosts = [
     likes: 22,
     link: "",
     readingTime: "6 mins read",
-    postImage: joinFilePath("assets", "images", "pexels-monicore-1391487.jpg"),
+    postImage: PexelsMonicoreImage,
   },
 ];
