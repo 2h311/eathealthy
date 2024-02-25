@@ -12,7 +12,7 @@ const RecentPosts = () => {
   useEffect(() => {
     const intervalID = setInterval(() => {
       setCurrentPost(allRecentPost[getRandomNumber()]);
-    }, 6000);
+    }, 6200);
 
     return () => clearInterval(intervalID);
   });

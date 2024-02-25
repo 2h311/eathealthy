@@ -405,4 +405,39 @@ html {
   display: inline-flex;
 }
 
+.send {
+  width: 100%;
+  height: 40rem;
+  background-color: #f9fcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.send__inner {
+  height: 62%;
+  width: 80%;
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.send__heading {
+  font-weight: 600;
+  font-size: 3.65rem;
+  text-align: center;
+  color: #1e5dbc;
+}
+.send__div--1 {
+  display: inline-block;
+  width: 65%;
+}
+.send__link {
+  font-weight: 500;
+  font-size: 1.45rem;
+  padding: 1.62rem 2rem;
+  color: #e8f8fe;
+  background-color: #1e5dbc;
+}
+
 /*# sourceMappingURL=main.css.map */
