@@ -28,7 +28,7 @@ export const recentPosts = [
       "Vitamin A is an essential nutrient that supports healthy skin and maintains the immune system. It’s also known as retinol and can be found in foods like...",
     likes: 25,
     link: "",
-    readingTime: "5 mins read",
+    readingTime: "5 mins",
     postImage: PexelsAshImage,
   },
   {
@@ -38,7 +38,7 @@ export const recentPosts = [
       "Vitamin A is an essential nutrient that supports healthy skin and maintains the immune system. It’s also known as retinol and can be found in foods like...",
     likes: 12,
     link: "",
-    readingTime: "3.5 mins read",
+    readingTime: "3.5 mins",
     postImage: PexelsJohnImage,
   },
   {
@@ -48,7 +48,7 @@ export const recentPosts = [
       "Vitamin A is an essential nutrient that supports healthy skin and maintains the immune system. It’s also known as retinol and can be found in foods like...",
     likes: 22,
     link: "",
-    readingTime: "6 mins read",
+    readingTime: "6 mins",
     postImage: PexelsMonicoreImage,
   },
 ];

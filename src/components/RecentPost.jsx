@@ -1,4 +1,5 @@
 import React from "react";
+import { FaClock, FaHeart, FaArrowRight } from "react-icons/fa6";
 
 import { recentPosts } from "../assets/data/data";
 
@@ -15,23 +16,47 @@ const RecentPost = ({}) => {
     postImage,
   } = recentPosts[0];
 
-  console.log(title, postImage);
+  console.log(title);
 
-  // const PostImage = ()
-  
   return (
     <section className="recent-post">
       <div className="recent-post__container">
-        <div className="">
-          <img src={postImage} alt={title} />
+        <div className="recent-post__left">
+          {isARecentPost ? (
+            <span className="recent-post__status">Recent post</span>
+          ) : null}
+
+          <img className="recent-post__image" src={postImage} alt={title} />
         </div>
-        <div className="">
-          <h3>Health Benefit of Vitamin A</h3>
-          <p>
-            Vitamin A is an essential nutrient that supports healthy skin and
-            maintains the immune system. It’s also known as retinol and can be
-            found in foods like...
-          </p>
+        <div className="recent-post__right">
+          <div className="recent-post__right-inner">
+            <h3 className="recent-post__heading-text">{title}</h3>
+            <p className="recent-post__description">{description}</p>
+
+            <div className="recent-post__info">
+              <div className="recent-post__icon">
+                <span className="recent-post__icon-svg recent-post__icon-svg--left">
+                  <FaClock />
+                </span>
+                <span className="recent-post__icon-text">
+                  {readingTime} read
+                </span>
+              </div>
+              <div className="recent-post__icon">
+                <span className="recent-post__icon-svg recent-post__icon-svg--right">
+                  <FaHeart />
+                </span>
+                <span className="recent-post__icon-text">{likes} likes</span>
+              </div>
+            </div>
+
+            <div className="recent-post__button">
+              <span>Continue Reading</span>
+              <span className="recent-post__icon-svg recent-post__arrow">
+                <FaArrowRight />
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
