@@ -2,14 +2,16 @@ import React from "react";
 
 import Hero from "./Hero";
 import Gist from "./Gist";
-import RecentPost from "./RecentPost";
+import Footer from "./footer/Footer";
+import RecentPosts from "./recent-posts/RecentPosts";
 
 const Home = () => {
   return (
     <>
-      {/* <Hero /> */}
-      {/* <Gist /> */}
-      <RecentPost />
+      <Hero />
+      <Gist />
+      <RecentPosts />
+      <Footer />
     </>
   );
 };
