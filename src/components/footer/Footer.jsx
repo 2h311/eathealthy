@@ -3,7 +3,7 @@ import React, { Fragment } from "react";
 import FooterLinks from "./FooterLinks";
 import FooterSocialHandles from "./FooterSocialHandles";
 
-import FullLogo from "../../helpers/FullLogo";
+import FullLogo from "../logo/FullLogo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-import { navbarLinks } from "../../helpers/data";
+import { navbarLinks } from "../../assets/data/data";
 
 const NavbarLinks = () => {
   return (

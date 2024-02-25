@@ -1,6 +1,6 @@
 import React from "react";
 
-import FullLogo from "../../helpers/FullLogo";
+import FullLogo from "../logo/FullLogo";
 import NavbarLinks from "./NavbarLinks";
 
 const Navbar = () => {

@@ -1,7 +1,7 @@
 import React from "react";
 
 import FooterLinkGroup from "./FooterLinkGroup";
-import { footerlinks } from "../../helpers/data";
+import { footerlinks } from "../../assets/data/data";
 
 const FooterLinks = () => {
   return (
