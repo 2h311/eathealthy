@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: center;
     gap: 3.5rem;
+    position: relative;
   }
 
   &__heading {
@@ -39,5 +40,15 @@
     padding: 1.62rem 2rem;
     color: $color-primary-light-2;
     background-color: $color-primary;
+  }
+
+  &-left-svg {
+    position: absolute;
+    left: 0;
+  }
+
+  &-right-svg {
+    position: absolute;
+    right: 0;
   }
 }

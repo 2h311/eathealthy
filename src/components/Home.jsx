@@ -12,7 +12,7 @@ const Home = () => {
       {/* <Hero /> */}
       {/* <Gist /> */}
       {/* <RecentPosts /> */}
-      <SendAMessageNow />
+      {/* <SendAMessageNow /> */}
       {/* <Footer /> */}
     </>
   );

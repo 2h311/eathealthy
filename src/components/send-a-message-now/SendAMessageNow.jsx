@@ -1,8 +1,16 @@
 import React from "react";
 
+import { LeftSVG, RightSVG } from "./sendmessagesvg";
+
 const SendAMessageNow = () => {
   return (
     <section className="send">
+      <span className="send-left-svg">
+        <LeftSVG />
+      </span>
+      <span className="send-right-svg">
+        <RightSVG />
+      </span>
       <div className="send__inner">
         <div className="send__div send__div--1">
           <p className="send__heading">

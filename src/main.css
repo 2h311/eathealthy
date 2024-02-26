@@ -421,6 +421,7 @@ html {
   align-items: center;
   justify-content: center;
   gap: 3.5rem;
+  position: relative;
 }
 .send__heading {
   font-weight: 600;
@@ -438,6 +439,14 @@ html {
   padding: 1.62rem 2rem;
   color: #e8f8fe;
   background-color: #1e5dbc;
+}
+.send-left-svg {
+  position: absolute;
+  left: 0;
+}
+.send-right-svg {
+  position: absolute;
+  right: 0;
 }
 
 /*# sourceMappingURL=main.css.map */
