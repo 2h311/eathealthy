@@ -5,6 +5,7 @@ import Gist from "./gist/Gist";
 import Footer from "./footer/Footer";
 import RecentPosts from "./recent-posts/RecentPosts";
 import SendAMessageNow from "./send-a-message-now/SendAMessageNow";
+import RecentPostVideo from "./RecentPostVideo";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       {/* <RecentPosts /> */}
       {/* <SendAMessageNow /> */}
       {/* <Footer /> */}
+      <RecentPostVideo />
     </>
   );
 };
