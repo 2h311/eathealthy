@@ -9,11 +9,11 @@ import SendAMessageNow from "./send-a-message-now/SendAMessageNow";
 const Home = () => {
   return (
     <>
-      {/* <Hero />
-      <Gist />
-      <RecentPosts />
-      <SendAMessageNow />
-      <Footer /> */}
+      {/* <Hero /> */}
+      {/* <Gist /> */}
+      {/* <RecentPosts /> */}
+      {/* <SendAMessageNow /> */}
+      {/* <Footer /> */}
     </>
   );
 };
