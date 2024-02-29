@@ -449,4 +449,31 @@ html {
   right: 0;
 }
 
+.recent-post-video {
+  width: 100%;
+  background-color: #ffffff;
+  height: 46rem;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recent-post-video__inner {
+  border: 1px solid #333;
+  background-color: #f9fcff;
+  height: 86%;
+  width: 80%;
+  display: inherit;
+  gap: 4.25rem;
+}
+.recent-post-video__left {
+  width: 50%;
+}
+.recent-post-video__right {
+  width: 50%;
+}
+.recent-post-video__left, .recent-post-video__right {
+  border: 1px solid #333;
+}
+
 /*# sourceMappingURL=main.css.map */

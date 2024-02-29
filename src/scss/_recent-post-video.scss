@@ -1,0 +1,33 @@
+.recent-post-video {
+  width: 100%;
+  background-color: $color-white;
+  height: 46rem;
+  border: 1px solid #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__inner {
+    border: 1px solid #333;
+    background-color: $color-green;
+    height: 86%;
+    width: $default-inner-width;
+    display: inherit;
+    // justify-content: space-between;
+    gap: 4.25rem;
+  }
+
+  &__left {
+    width: 50%;
+  }
+
+  &__right {
+    width: 50%;
+  }
+
+  &__left,
+  &__right {
+    border: 1px solid #333;
+  }
+}
