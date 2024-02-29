@@ -452,9 +452,10 @@ html {
   right: 0;
 }
 .send__text {
-  width: 80%;
+  width: 60%;
   font-size: 2rem;
   text-align: center;
+  color: #424446;
 }
 
 .recent-post-video {
