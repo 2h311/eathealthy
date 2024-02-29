@@ -16,21 +16,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 3.5rem;
+    gap: 3.2rem;
     position: relative;
   }
 
   &__heading {
     font-weight: 600;
-    font-size: 3.65rem;
+    font-size: 3.6rem;
     text-align: center;
     color: $color-primary;
   }
 
   &__div {
     &--1 {
-      display: inline-block;
-      width: 65%;
+      width: 60%;
+    }
+
+    &--2 {
+      display: inherit;
+      justify-content: center;
     }
   }
 
@@ -50,5 +54,11 @@
   &-right-svg {
     position: absolute;
     right: 0;
+  }
+
+  &__text {
+    width: 80%;
+    font-size: 2rem;
+    text-align: center;
   }
 }
