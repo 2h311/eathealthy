@@ -11,14 +11,14 @@ import GetMyLatestEbook from "./latest-ebook/GetMyLatestEbook";
 const Home = () => {
   return (
     <>
-      {/* <Hero />
+      <Hero />
       <Gist />
       <RecentPosts />
       <SendAMessageNow />
-      <RecentPostVideo /> */}
+      <RecentPostVideo />
       <GetMyLatestEbook />
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

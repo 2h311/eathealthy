@@ -6,7 +6,7 @@
   justify-content: center;
   background-color: $color-white;
   //   border: 1px solid orangered;
-  padding: 5rem 0;
+  padding: 8.5rem 0;
 
   &__inner {
     height: 82%;
@@ -34,5 +34,17 @@
     display: inline-block;
     font-size: 1.82rem;
     color: #424446;
+  }
+
+  &__books {
+    width: 33%;
+    display: inherit;
+    gap: 0.5rem;
+    height: 20rem;
+  }
+
+  &__book {
+    width: 100%;
+    height: 100%;
   }
 }

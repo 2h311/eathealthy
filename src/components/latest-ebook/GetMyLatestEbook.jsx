@@ -16,10 +16,10 @@ const GetMyLatestEbook = () => {
           dolores soluta ad deserunt quos nostrum magni eius, veritatis, facilis
           atque reiciendis autem fugit ratione libero fuga, inventore rerum.
         </p>
-        <div className="">
-          <img className="" src={BookImage1} />
-          <img className="" src={BookImage2} />
-          <img className="" src={BookImage3} />
+        <div className="latest-ebook-section__books">
+          <img className="latest-ebook-section__book" src={BookImage1} />
+          <img className="latest-ebook-section__book" src={BookImage2} />
+          <img className="latest-ebook-section__book" src={BookImage3} />
         </div>
       </div>
     </section>
