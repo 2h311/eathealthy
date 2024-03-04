@@ -601,15 +601,60 @@ video {
 
 .testimonials {
   width: 100%;
-  height: 62rem;
+  height: 68rem;
+  padding: 5.2rem 0;
   background-color: #f9fcff;
   display: flex;
   justify-content: center;
-  padding: 5rem 0;
 }
 .testimonials__inner {
-  border: 1px solid #333;
   width: 80%;
+  display: inherit;
+  flex-direction: column;
+  gap: 5.2rem;
+}
+.testimonials__container {
+  display: inherit;
+}
+.testimonials__container--1 {
+  text-align: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.testimonials__container--2 {
+  justify-content: space-between;
+}
+.testimonials__header {
+  font-size: 4.25rem;
+  color: #1e5dbc;
+}
+.testimonials__text {
+  font-size: 1.82rem;
+  color: #424446;
+}
+
+.testimony {
+  width: 25%;
+  height: 40rem;
+  padding: 1rem 2.65rem;
+  color: #424446;
+  background-color: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.testimony__text {
+  font-size: 1.82rem;
+}
+.testimony__name {
+  font-size: 2.15rem;
+  font-weight: 600;
+}
+.testimony__quote svg {
+  width: 12rem;
+  height: 12rem;
+  fill: #1e5dbc;
 }
 
 /*# sourceMappingURL=main.css.map */

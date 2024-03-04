@@ -2,7 +2,7 @@ import PexelsAshImage from "../../assets/images/pexels-ash-376464.jpg";
 import PexelsJohnImage from "../../assets/images/pexels-john-finkelstein-1630588.jpg";
 import PexelsMonicoreImage from "../../assets/images/pexels-monicore-1391487.jpg";
 
-export const navbarLinks = [
+const navbarLinks = [
   { href: "", link: "home" },
   { href: "", link: "about us" },
   { href: "", link: "forum" },
@@ -11,7 +11,7 @@ export const navbarLinks = [
   { href: "", link: "contact us" },
 ];
 
-export const footerlinks = [
+const footerlinks = [
   { href: "", text: "home" },
   { href: "", text: "contact us" },
   { href: "", text: "about us" },
@@ -20,7 +20,7 @@ export const footerlinks = [
   { href: "", text: "products" },
 ];
 
-export const recentPosts = [
+const recentPosts = [
   {
     isARecentPost: true,
     title: "Health Benefit of Vitamin A",
@@ -52,3 +52,22 @@ export const recentPosts = [
     postImage: PexelsMonicoreImage,
   },
 ];
+
+const testimonialData = [
+  {
+    text: `It really saves me time and effort. Diet consultancy is exactly
+what my wife and i have been laccking. It's the perfect solution
+for our health routine. Thank You!`,
+    name: "David Palmer",
+  },
+  {
+    text: `Diet consultancy saved my business. I will refer everyone I know. Diet consultancy is the real deal! Diet consultancy saved my business`,
+    name: "Jack Bauer",
+  },
+  {
+    text: `Absolutely wonderful! Diet consultancy is both attractive and highly adaptable. Diet consultancy impressed me on multiple levels. The service was excellent.`,
+    name: "Chloe Obrian",
+  },
+];
+
+export { navbarLinks, footerlinks, recentPosts, testimonialData };

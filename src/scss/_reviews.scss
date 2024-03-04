@@ -1,16 +1,70 @@
 .testimonials {
   width: 100%;
-  height: 62rem;
+  height: 68rem;
+  padding: 5.2rem 0;
   background-color: $color-green;
-  //   border: 1px solid #333;
   display: flex;
-  //   align-items: center;
   justify-content: center;
-  padding: 5rem 0;
 
   &__inner {
-    // height: 90%;
-    border: 1px solid #333;
+    // border: 1px solid #333;
     width: $default-inner-width;
+    display: inherit;
+    flex-direction: column;
+    gap: 5.2rem;
+  }
+
+  &__container {
+    display: inherit;
+
+    &--1 {
+      text-align: center;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+
+    &--2 {
+      justify-content: space-between;
+    }
+  }
+
+  &__header {
+    font-size: 4.25rem;
+    color: $color-primary;
+  }
+
+  &__text {
+    font-size: 1.82rem;
+    color: $color-grey-2;
+  }
+}
+
+.testimony {
+  width: 25%;
+  height: 40rem;
+  padding: 1rem 2.65rem;
+  color: $color-grey-2;
+  background-color: $color-white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  display: inherit;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  &__text {
+    font-size: 1.82rem;
+  }
+
+  &__name {
+    font-size: 2.15rem;
+    font-weight: 600;
+  }
+
+  &__quote {
+    & svg {
+      width: 12rem;
+      height: 12rem;
+      fill: $color-primary;
+    }
   }
 }
