@@ -5,11 +5,10 @@
   align-items: center;
   justify-content: center;
   background-color: $color-white;
-  //   border: 1px solid orangered;
+  // border: 1px solid orangered;
   padding: 8.5rem 0;
 
   &__inner {
-    height: 82%;
     width: $default-inner-width;
     // border: 1px solid #333;
 
@@ -20,27 +19,27 @@
 
     display: inherit;
     flex-direction: column;
-    gap: 1.85rem;
+    gap: 3rem;
     padding: 2.5rem 3rem;
   }
 
   &__heading {
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     color: $color-primary;
   }
 
   &__text {
-    width: 42%;
+    width: 52%;
     display: inline-block;
-    font-size: 1.82rem;
+    font-size: 2.15rem;
     color: #424446;
   }
 
   &__books {
-    width: 33%;
+    width: 32%;
     display: inherit;
-    gap: 0.5rem;
-    height: 20rem;
+    gap: 1.25rem;
+    height: 19rem;
   }
 
   &__book {
