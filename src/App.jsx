@@ -1,12 +1,12 @@
-import React from "react";
+import React, { Fragment } from "react";
 
-import Home from "./components/Home";
+import Home from "./components/pages/Home";
 
 const App = () => {
   return (
-    <>
+    <Fragment>
       <Home />
-    </>
+    </Fragment>
   );
 };
 

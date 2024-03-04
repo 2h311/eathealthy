@@ -8,7 +8,7 @@ const Hero = () => {
       <Navbar />
       <div className="home__container">
         <div className="home__text">
-          <h1 className="home__header gloock-regular ">
+          <h1 className="home__header gloock-regular">
             We balance <br /> your diet
           </h1>
           <span className="home__small">

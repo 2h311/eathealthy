@@ -1,8 +1,7 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import FooterLinks from "./FooterLinks";
 import FooterSocialHandles from "./FooterSocialHandles";
-
 import FullLogo from "../logo/FullLogo";
 
 const Footer = () => {

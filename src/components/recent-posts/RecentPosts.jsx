@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 import RecentPost from "./RecentPost";
-
-import { getRandomNumber } from "../../helpers/helperfunctions";
 import { recentPosts } from "../../assets/data/data";
+import { getRandomNumber } from "../../helpers/helperfunctions";
 
 const RecentPosts = () => {
   const allRecentPost = [...recentPosts];

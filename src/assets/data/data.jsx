@@ -70,4 +70,16 @@ for our health routine. Thank You!`,
   },
 ];
 
-export { navbarLinks, footerlinks, recentPosts, testimonialData };
+const ratingTextContent = [
+  { number: "300", text: "clients", htmlCharChode: "43" },
+  { number: "90", text: "service guarantee", htmlCharChode: "37" },
+  { number: "10", text: "dieticians", htmlCharChode: "43" },
+];
+
+export {
+  navbarLinks,
+  footerlinks,
+  recentPosts,
+  testimonialData,
+  ratingTextContent,
+};

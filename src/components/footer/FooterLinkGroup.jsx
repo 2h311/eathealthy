@@ -4,7 +4,6 @@ const FooterLinkGroup = ({ links }) => {
   return (
     <span className="footer__links-span">
       {links.map((linkObject, index) => {
-        // console.log(index, linkObject);
         const { href, text } = linkObject;
         return (
           <li key={index} className="footer__links-list">
