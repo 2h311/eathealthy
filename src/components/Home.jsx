@@ -8,6 +8,7 @@ import SendAMessageNow from "./send-a-message-now/SendAMessageNow";
 import RecentPostVideo from "./recent-video/RecentPostVideo";
 import GetMyLatestEbook from "./latest-ebook/GetMyLatestEbook";
 import WhatMakesUsDifferent from "./send-a-message-now/WhatMakesUsDifferent";
+import Ratings from "./Ratings";
 
 const Home = () => {
   return (
@@ -19,7 +20,8 @@ const Home = () => {
       <RecentPostVideo />
       <GetMyLatestEbook />
       <WhatMakesUsDifferent />
-
+      <Ratings />
+      
       <Footer />
     </>
   );

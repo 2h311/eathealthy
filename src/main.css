@@ -565,4 +565,13 @@ video {
   height: 100%;
 }
 
+.ratings {
+  width: 100%;
+  height: 22rem;
+  background-color: #f9fcff;
+}
+.ratings__inner {
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=main.css.map */

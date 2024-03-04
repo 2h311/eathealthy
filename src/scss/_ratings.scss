@@ -1,0 +1,9 @@
+.ratings {
+  width: 100%;
+  height: 22rem;
+  background-color: $color-green;
+
+  &__inner {
+    color: $color-white;
+  }
+}
