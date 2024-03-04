@@ -9,6 +9,7 @@ import RecentPostVideo from "./recent-video/RecentPostVideo";
 import GetMyLatestEbook from "./latest-ebook/GetMyLatestEbook";
 import WhatMakesUsDifferent from "./send-a-message-now/WhatMakesUsDifferent";
 import Ratings from "./ratings/Ratings";
+import Testimonials from "./testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -21,7 +22,8 @@ const Home = () => {
       <GetMyLatestEbook />
       <WhatMakesUsDifferent />
       <Ratings />
-      
+      <Testimonials />
+
       <Footer />
     </>
   );
