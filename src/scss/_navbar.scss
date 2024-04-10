@@ -17,7 +17,7 @@
 
     display: inherit;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   &__part {
@@ -31,10 +31,10 @@
   &__list {
     list-style: none;
     text-transform: capitalize;
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.65rem;
+    // font-weight: 500;
     display: flex;
-    gap: 4.45rem;
+    gap: 4rem;
     justify-content: center;
     cursor: pointer;
     color: $color-grey;
@@ -60,7 +60,7 @@
     width: 10rem;
     font-weight: 600;
     font-family: inherit;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     padding: 1rem 2.2rem;
     border-radius: 5px;
     border: 1px solid $color-primary;
