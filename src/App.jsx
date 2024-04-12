@@ -8,6 +8,8 @@ import Contact from "./components/pages/Contact";
 import Forum from "./components/pages/Forum";
 import Products from "./components/pages/Products";
 import PageNotFound from "./components/pages/PageNotFound";
+import Login from "./components/pages/Login";
+import Register from "./components/pages/Register";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/forum" element={<Forum />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
         <Route path="*" element={<PageNotFound />} />
       </Routes>
     </Fragment>

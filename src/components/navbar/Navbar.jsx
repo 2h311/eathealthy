@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import FullLogo from "../logo/FullLogo";
 import NavbarLinks from "./NavbarLinks";
@@ -17,16 +18,15 @@ const Navbar = () => {
 
         <div className="navbar__part navbar__part--3">
           <div className="navbar__buttons">
-            <input
-              type="button"
-              className="navbar__button navbar__button--login"
-              value="Login"
-            />
-            <input
-              type="button"
+            <Link className="navbar__button navbar__button--login" to="/login">
+              Login
+            </Link>
+            <Link
               className="navbar__button navbar__button--register"
-              value="Register"
-            />
+              to="/register"
+            >
+              Register
+            </Link>
           </div>
         </div>
       </section>

@@ -58,10 +58,12 @@
     font-weight: 600;
     font-family: inherit;
     font-size: 1.65rem;
-    padding: 1rem 2.2rem;
+    padding: 1rem;
     border-radius: 5px;
     border: 1px solid $color-primary;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
 
     &--login {
       color: $color-primary;

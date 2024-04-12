@@ -255,10 +255,12 @@ html {
   font-weight: 600;
   font-family: inherit;
   font-size: 1.65rem;
-  padding: 1rem 2.2rem;
+  padding: 1rem;
   border-radius: 5px;
   border: 1px solid #1e5dbc;
   cursor: pointer;
+  text-decoration: none;
+  text-align: center;
 }
 .navbar__button--login {
   color: #1e5dbc;
