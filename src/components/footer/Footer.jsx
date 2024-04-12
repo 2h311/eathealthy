@@ -49,7 +49,7 @@ const Footer = () => {
           </div>
         </section>
         <section className="footer__down">
-          &copy; eathealthy.com &#124; All rights reserved &#124; {currentYear}
+          &copy;eathealthy.com &#124; All rights reserved &#124; {currentYear}
         </section>
       </div>
     </footer>
