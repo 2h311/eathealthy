@@ -15,7 +15,7 @@ const PageNotFoundBody = () => {
         />
         <h1 className="notfound__heading">oops!</h1>
         <p className="notfound__text">
-          Sorry, we cant find the page you are looking for
+          Sorry, we cant find the page <br /> or resource you are looking for
         </p>
         <Link className="notfound__link" to={"/"}>
           Go to homepage
