@@ -1,0 +1,36 @@
+.signup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__inner {
+    width: $default-inner-width;
+    height: 70rem;
+    display: inherit;
+    gap: 1.25rem;
+    // border: 1px solid #333;
+    // justify-content: center;
+    // align-items: center;
+  }
+
+  &__left,
+  &__right {
+    border: 1px solid #333;
+  }
+
+  &__left {
+    width: 30%;
+    align-self: center;
+  }
+
+  &__right {
+    width: 70%;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

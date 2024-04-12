@@ -9,7 +9,9 @@ const Navbar = () => {
     <nav className="navbar">
       <section className="navbar__container">
         <div className="navbar__part navbar__part--1">
-          <FullLogo />
+          <Link className="navbar__homelink" to="/">
+            <FullLogo />
+          </Link>
         </div>
 
         <div className="navbar__part navbar__part--2">
@@ -23,9 +25,9 @@ const Navbar = () => {
             </Link>
             <Link
               className="navbar__button navbar__button--register"
-              to="/register"
+              to="/sign-up"
             >
-              Register
+              Sign Up
             </Link>
           </div>
         </div>

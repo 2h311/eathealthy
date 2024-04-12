@@ -25,6 +25,10 @@
     }
   }
 
+  &__homelink {
+    text-decoration: none;
+  }
+
   &__list {
     list-style: none;
     text-transform: capitalize;

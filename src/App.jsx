@@ -9,7 +9,6 @@ import Forum from "./components/pages/Forum";
 import Products from "./components/pages/Products";
 import PageNotFound from "./components/pages/PageNotFound";
 import Login from "./components/pages/Login";
-import Register from "./components/pages/Register";
 import SignUp from "./components/pages/SignUp";
 import Forget from "./components/pages/Forget";
 
@@ -24,7 +23,6 @@ const App = () => {
         <Route path="/forum" element={<Forum />} />
         <Route path="/products" element={<Products />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/forget" element={<Forget />} />
 
