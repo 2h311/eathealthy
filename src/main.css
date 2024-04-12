@@ -667,4 +667,42 @@ video {
   fill: #1e5dbc;
 }
 
+.notfound {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.notfound__inner {
+  width: 80%;
+  margin: 5rem 0 25rem;
+}
+.notfound__image {
+  width: 10%;
+}
+.notfound__divider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.85rem;
+}
+.notfound__heading {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+}
+.notfound__text {
+  color: #534847;
+  font-size: 1.55rem;
+}
+.notfound__link {
+  padding: 2rem 4.2rem;
+  background-color: #1e5dbc;
+  color: #ffffff;
+  font-size: 1.55rem;
+  text-decoration: none;
+  border-radius: 50rem;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=main.css.map */
