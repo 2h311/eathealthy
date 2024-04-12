@@ -110,6 +110,14 @@ html {
   display: flex;
   justify-content: space-between;
 }
+.footer__links-href {
+  text-decoration: none;
+  color: #e8f8fe;
+}
+.footer__links-href:hover {
+  font-weight: 400;
+  color: #ffffff;
+}
 .footer__links-span {
   display: inherit;
   flex-direction: column;
@@ -205,7 +213,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 500;
+  z-index: 5000;
 }
 .navbar__container {
   height: 80%;
@@ -224,15 +232,18 @@ html {
   text-transform: capitalize;
   font-size: 1.65rem;
   display: flex;
-  gap: 4rem;
+  gap: 2.8rem;
   justify-content: center;
+}
+.navbar__list-href {
   cursor: pointer;
+  text-decoration: none;
   color: #534847;
 }
-.navbar__list:active {
+.navbar__list-href:active {
   font-weight: 600;
 }
-.navbar__list-item:hover {
+.navbar__list-href:hover {
   color: #000;
 }
 .navbar__buttons {

@@ -21,10 +21,10 @@
     letter-spacing: 0.2px;
   }
 
-  &__up,
-  &__down {
-    // border: 1px solid #fff;
-  }
+  // &__up,
+  // &__down {
+  //   border: 1px solid #fff;
+  // }
 
   &__up {
     color: $color-white;
@@ -77,18 +77,28 @@
   }
 
   &__links {
-    // border: 1px solid #fff;
     height: 100%;
     list-style-type: none;
     font-weight: 300;
     display: flex;
     justify-content: space-between;
 
+    &-href {
+      text-decoration: none;
+      color: $color-primary-light-2;
+
+      &:hover {
+        font-weight: 400;
+        color: $color-white;
+      }
+    }
+
     &-span {
       display: inherit;
       flex-direction: column;
       gap: 2rem;
     }
+
     &-list {
       cursor: pointer;
       display: inline-block;

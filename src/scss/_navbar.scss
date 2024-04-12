@@ -5,8 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  // border: 1px solid #000;
-  z-index: 500;
+  z-index: 5000;
 
   &__container {
     height: 80%;
@@ -21,8 +20,6 @@
   }
 
   &__part {
-    // border: 1px solid #000;
-
     &--2 {
       width: 50%;
     }
@@ -32,19 +29,19 @@
     list-style: none;
     text-transform: capitalize;
     font-size: 1.65rem;
-    // font-weight: 500;
     display: flex;
-    gap: 4rem;
+    gap: 2.8rem;
     justify-content: center;
-    cursor: pointer;
-    color: $color-grey;
-    // border: 1px solid #333;
 
-    &:active {
-      font-weight: 600;
-    }
+    &-href {
+      cursor: pointer;
+      text-decoration: none;
+      color: $color-grey;
 
-    &-item {
+      &:active {
+        font-weight: 600;
+      }
+
       &:hover {
         color: #000;
       }
