@@ -6,12 +6,9 @@
 
   &__inner {
     width: $default-inner-width;
-    height: 70rem;
+    height: 72rem;
     display: inherit;
-    gap: 1.65rem;
-    // border: 1px solid #333;
-    // justify-content: center;
-    // align-items: center;
+    gap: 1.85rem;
   }
 
   &__heading {
@@ -21,18 +18,13 @@
     margin-bottom: 4rem;
   }
 
-  &__left,
-  &__right {
-    // border: 1px solid #333;
-  }
-
   &__left {
-    width: 30%;
+    width: 25%;
     align-self: center;
   }
 
   &__right {
-    width: 70%;
+    width: 75%;
   }
 
   &__image {
@@ -44,7 +36,10 @@
   &__div {
     display: flex;
     flex-direction: column;
-    margin-bottom: 4rem;
+
+    &:not(:last-child) {
+      margin-bottom: 2.85rem;
+    }
 
     &--radio {
       flex-direction: row;
@@ -65,5 +60,20 @@
     font-family: inherit;
     border: 0;
     border-bottom: 2px solid $color-grey;
+  }
+
+  &__button {
+    color: $color-primary-light;
+    background-color: $color-primary;
+    border: 0;
+    font-family: inherit;
+    font-weight: 500;
+    padding: 1.2rem 3.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      color: $color-white;
+    }
   }
 }

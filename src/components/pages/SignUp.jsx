@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 
 import BalanceYourDietImage from "../../assets/images/balance-your-diet.jpg";
@@ -64,21 +65,18 @@ const SignUp = () => {
             </label>
           </div>
 
-          {/* <div className="login__div login__div--3">
-            <div>
-              <Link className="login__button" to="/login">
-                Login
-              </Link>
-            </div>
+          <div className="signup__div">
+            <button className="signup__button">Sign Up</button>
+
             <div className="login__links">
               <span className="">
-                Don't have an account?{" "}
-                <Link className="login__link" to="/sign-up">
-                  Sign Up
+                Already have an account?{" "}
+                <Link className="login__link" to="/login">
+                  Log in here
                 </Link>
               </span>
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="signup__right">
           <img className="signup__image" src={BalanceYourDietImage} alt="" />

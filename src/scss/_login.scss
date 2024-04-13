@@ -5,7 +5,6 @@
   align-items: center;
 
   &__inner {
-    // border: 1px solid red;
     width: $default-inner-width;
   }
 
@@ -19,18 +18,18 @@
 
   &__container {
     width: 100%;
-    height: 76rem;
+    height: 72rem;
     display: flex;
     gap: 2rem;
   }
 
   &__left {
-    width: 33%;
+    width: 25%;
     align-self: center;
   }
 
   &__right {
-    width: 66%;
+    width: 75%;
   }
 
   &__div {
@@ -50,7 +49,7 @@
     }
 
     &-widget {
-      outline: none;    
+      outline: none;
       padding: 1.85rem 0 0.65rem;
       font-size: 1.5rem;
       font-family: inherit;
@@ -69,8 +68,8 @@
     max-width: 100%;
     padding: 1.65rem 0;
     color: $color-green;
-    background-color: $color-grey-2;
-    border-radius: 2.5px;
+    background-color: $color-primary;
+    border-radius: 6.5px;
     margin-bottom: 1.62rem;
   }
 
@@ -83,7 +82,8 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 1.45rem;
+    font-size: 1.4rem;
+    padding-top: 0.55rem;
   }
 
   &__image {
