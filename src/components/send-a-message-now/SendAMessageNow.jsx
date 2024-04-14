@@ -1,6 +1,6 @@
 import React from "react";
 
-import { LeftSVG, RightSVG } from "./sendmessagesvg";
+import { LeftSVG, RightSVG } from "../../assets/svgs/sendmessagesvg";
 
 const SendAMessageNow = () => {
   return (
