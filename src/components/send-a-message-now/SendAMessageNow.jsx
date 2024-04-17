@@ -1,16 +1,10 @@
 import React from "react";
 
-import { LeftSVG, RightSVG } from "../../assets/svgs/sendmessagesvg";
+import LeftRrightSVG from "../dry/LeftRrightSVG";
 
 const SendAMessageNow = () => {
   return (
-    <section className="send">
-      <span className="send-left-svg">
-        <LeftSVG />
-      </span>
-      <span className="send-right-svg">
-        <RightSVG />
-      </span>
+    <LeftRrightSVG>
       <div className="send__inner">
         <div className="send__div send__div--1">
           <p className="send__heading">
@@ -22,7 +16,7 @@ const SendAMessageNow = () => {
           <span className="send__link">Send a message now</span>
         </div>
       </div>
-    </section>
+    </LeftRrightSVG>
   );
 };
 
