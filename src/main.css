@@ -164,10 +164,48 @@ html {
 .contact {
   width: 100%;
 }
-.contact__jumbotron-text {
+.contact__main {
+  margin: 6.25rem 0;
+  height: 60rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.contact__inner {
+  width: 80%;
+}
+.contact__heading {
+  font-size: 3.45rem;
+  margin-bottom: 1.32rem;
+  color: #534847;
+}
+.contact__sub-heading {
+  color: #534847;
+  font-size: 1.52rem;
+}
+.contact-jumbotron {
+  width: 100%;
+  position: relative;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-jumbotron__text {
   font-weight: 500;
-  font-size: 6.25rem;
+  font-size: 6.95rem;
   color: #1e5dbc;
+}
+.contact-jumbotron__left, .contact-jumbotron__right {
+  bottom: 0;
+}
+.contact-jumbotron__left {
+  position: absolute;
+  left: 0;
+}
+.contact-jumbotron__right {
+  position: absolute;
+  right: 0;
 }
 
 .gist {
@@ -389,7 +427,7 @@ html {
   height: 80%;
   width: 80%;
   background-color: #ffffff;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
   display: inherit;
   align-items: center;
   justify-content: space-evenly;

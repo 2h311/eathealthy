@@ -1,15 +1,58 @@
 .contact {
   width: 100%;
 
-  &__inner {
-    // width: ;
+  &__main {
+    margin: 6.25rem 0;
+    height: 60rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    // border: 1px solid orangered;
   }
 
-  &__jumbotron {
-    &-text {
+  &__inner {
+    width: $default-inner-width;
+    // border: 1px solid orangered;
+  }
+
+  &__heading {
+    font-size: 3.45rem;
+    margin-bottom: 1.32rem;
+    color: $color-grey;
+  }
+
+  &__sub-heading {
+    color: $color-grey;
+    font-size: 1.52rem;
+  }
+
+  &-jumbotron {
+    width: 100%;
+    position: relative;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__text {
       font-weight: 500;
-      font-size: 6.25rem;
+      font-size: 6.95rem;
       color: $color-primary;
+    }
+
+    &__left,
+    &__right {
+      bottom: 0;
+    }
+
+    &__left {
+      position: absolute;
+      left: 0;
+    }
+
+    &__right {
+      position: absolute;
+      right: 0;
     }
   }
 }
