@@ -17,43 +17,77 @@ const ContactBody = () => {
           problems. <br /> We guarantee you will get the best service that you
           have never experienced before.
         </p>
-        <div className="contact-form">
-          {/* your name input */}
-          <div className="">
-            <label htmlFor="">
-              Your Name<sup>&#10033;</sup>
+        <div className="form">
+          <div className="form__inner">
+            {/* your name input */}
+            <div className="form__container form__container--50">
+              <label className="form__label" htmlFor="your-name">
+                Your Name<sup>&#10033;</sup>
+              </label>
+              <input
+                type="text"
+                className="form__input"
+                name=""
+                id="your-name"
+              />
+            </div>
+
+            {/* your email input */}
+            <div className="form__container form__container--50">
+              <label className="form__label" htmlFor="your-email">
+                Your Email<sup>&#10033;</sup>
+              </label>
+              <input
+                type="email"
+                className="form__input"
+                name=""
+                id="your-email"
+              />
+            </div>
+          </div>
+
+          <div className="form__inner">
+            {/* your subject */}
+            <div className="form__container form__container--50">
+              <label className="form__label" htmlFor="">
+                Subject
+              </label>
+              <input
+                type="text"
+                className="form__input"
+                name=""
+                id="your-subject"
+              />
+            </div>
+
+            <div className="form__container form__container--50">
+              <label className="form__label" htmlFor="">
+                Inquiry Type<sup>&#10033;</sup>
+              </label>
+              <input
+                type="text"
+                className="form__input"
+                name=""
+                id="your-email"
+              />
+            </div>
+          </div>
+
+          <div className="form__container">
+            <label className="form__label" htmlFor="">
+              Your Message&#46;&#46;&#46;
             </label>
-            <input type="text" name="" id="" />
-          </div>
-
-          {/* your email input */}
-          <div className="">
-            <label htmlFor="">
-              Your Email<sup>&#10033;</sup>
-            </label>
-            <input type="email" name="" id="" />
-          </div>
-
-          {/* your subject */}
-          <div className="">
-            <label htmlFor="">Subject</label>
-            <input type="text" name="" id="" />
+            <textarea
+              name=""
+              className="form__textarea"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
 
           <div className="">
-            <label htmlFor="">
-              Inquiry Type<sup>&#10033;</sup>
-            </label>
-            <input type="text" name="" id="" />
-          </div>
-
-          <div className="">
-            <label htmlFor="">Your Message&#46;&#46;&#46;</label>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </div>
-
-          <div className="">
-            <input type="button" value="Submit" />
+            <input type="button" className="form__submit" value="Submit" />
           </div>
         </div>
       </div>

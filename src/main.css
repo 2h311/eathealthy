@@ -165,7 +165,7 @@ html {
   width: 100%;
 }
 .contact__main {
-  margin: 5.45rem 0;
+  margin: 5.25rem 0;
   height: 62rem;
   width: 100%;
   display: flex;
@@ -208,6 +208,50 @@ html {
 .contact-jumbotron__right {
   position: absolute;
   right: 0;
+}
+
+.form {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  row-gap: 2.25rem;
+}
+.form__label {
+  color: #1e5dbc;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.form__submit {
+  border: 0;
+  background-color: #1e5dbc;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding: 0.85rem 2.85rem;
+  border-radius: 2.5px;
+}
+.form__textarea {
+  resize: none;
+}
+.form__input, .form__textarea {
+  padding: 10px 8px;
+  border: 2px solid rgba(83, 72, 71, 0.85);
+  font-family: inherit;
+  border-radius: 2.5px;
+}
+.form__inner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.form__container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.65rem;
+}
+.form__container--50 {
+  width: 48.5%;
 }
 
 .gist {
