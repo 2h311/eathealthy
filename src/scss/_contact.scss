@@ -1,0 +1,15 @@
+.contact {
+  width: 100%;
+
+  &__inner {
+    // width: ;
+  }
+
+  &__jumbotron {
+    &-text {
+      font-weight: 500;
+      font-size: 6.25rem;
+      color: $color-primary;
+    }
+  }
+}

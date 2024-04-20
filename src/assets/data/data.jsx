@@ -62,9 +62,9 @@ for our health routine. Thank You!`,
 ];
 
 const ratingTextContent = [
+  { number: "90", text: "service guaranteed", htmlCharChode: "37" },
   { number: "300", text: "clients", htmlCharChode: "43" },
-  { number: "90", text: "service guarantee", htmlCharChode: "37" },
-  { number: "10", text: "dieticians", htmlCharChode: "43" },
+  { number: "12", text: "dieticians", htmlCharChode: "43" },
 ];
 
 export { navbarLinks, recentPosts, testimonialData, ratingTextContent };
