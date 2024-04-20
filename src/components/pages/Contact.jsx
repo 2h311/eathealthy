@@ -17,6 +17,45 @@ const ContactBody = () => {
           problems. <br /> We guarantee you will get the best service that you
           have never experienced before.
         </p>
+        <div className="contact-form">
+          {/* your name input */}
+          <div className="">
+            <label htmlFor="">
+              Your Name<sup>&#10033;</sup>
+            </label>
+            <input type="text" name="" id="" />
+          </div>
+
+          {/* your email input */}
+          <div className="">
+            <label htmlFor="">
+              Your Email<sup>&#10033;</sup>
+            </label>
+            <input type="email" name="" id="" />
+          </div>
+
+          {/* your subject */}
+          <div className="">
+            <label htmlFor="">Subject</label>
+            <input type="text" name="" id="" />
+          </div>
+
+          <div className="">
+            <label htmlFor="">
+              Inquiry Type<sup>&#10033;</sup>
+            </label>
+            <input type="text" name="" id="" />
+          </div>
+
+          <div className="">
+            <label htmlFor="">Your Message&#46;&#46;&#46;</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+
+          <div className="">
+            <input type="button" value="Submit" />
+          </div>
+        </div>
       </div>
     </section>
   );

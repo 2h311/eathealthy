@@ -165,23 +165,25 @@ html {
   width: 100%;
 }
 .contact__main {
-  margin: 6.25rem 0;
-  height: 60rem;
+  margin: 5.45rem 0;
+  height: 62rem;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 .contact__inner {
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.25rem;
 }
 .contact__heading {
-  font-size: 3.45rem;
-  margin-bottom: 1.32rem;
+  font-size: 3.95rem;
   color: #534847;
 }
 .contact__sub-heading {
   color: #534847;
-  font-size: 1.52rem;
+  font-size: 1.4rem;
 }
 .contact-jumbotron {
   width: 100%;

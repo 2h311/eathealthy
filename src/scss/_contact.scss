@@ -2,8 +2,8 @@
   width: 100%;
 
   &__main {
-    margin: 6.25rem 0;
-    height: 60rem;
+    margin: 5.45rem 0;
+    height: 62rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -12,18 +12,21 @@
 
   &__inner {
     width: $default-inner-width;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.25rem;
     // border: 1px solid orangered;
   }
 
   &__heading {
-    font-size: 3.45rem;
-    margin-bottom: 1.32rem;
+    font-size: 3.95rem;
+    // margin-bottom: 1.32rem;
     color: $color-grey;
   }
 
   &__sub-heading {
     color: $color-grey;
-    font-size: 1.52rem;
+    font-size: 1.4rem;
   }
 
   &-jumbotron {
