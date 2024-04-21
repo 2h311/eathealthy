@@ -4,7 +4,7 @@ import {
   ContactRightSVG,
 } from "../../assets/svgs/contact-us-svgs";
 
-const ContactJumbotron = () => {
+const ContactJumbotron = ({ children }) => {
   return (
     <section className="contact-jumbotron">
       <span className="contact-jumbotron__left">
@@ -13,9 +13,7 @@ const ContactJumbotron = () => {
       <span className="contact-jumbotron__right">
         <ContactRightSVG />
       </span>
-      <p className="gloock-regular contact-jumbotron__text">
-        We care wherever you need it
-      </p>
+      {children}
     </section>
   );
 };

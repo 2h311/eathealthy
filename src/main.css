@@ -47,6 +47,13 @@ html {
 .about {
   width: 100%;
 }
+.about-jumbotron__text {
+  font-size: 4.65rem;
+  color: #1e5dbc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 
 .contact {
   width: 100%;

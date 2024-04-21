@@ -8,7 +8,11 @@ const Contact = () => {
   return (
     <section className="contact">
       <Navbar />
-      <ContactJumbotron />
+      <ContactJumbotron>
+        <p className="gloock-regular contact-jumbotron__text">
+          We care wherever you need it
+        </p>
+      </ContactJumbotron>
       <ContactBody />
       <Footer />
     </section>

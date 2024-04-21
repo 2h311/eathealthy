@@ -1,3 +1,11 @@
 .about {
   width: 100%;
+
+  &-jumbotron__text {
+    font-size: 4.65rem;
+    color: $color-primary;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
