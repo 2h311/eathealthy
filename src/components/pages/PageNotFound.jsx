@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
-import OopsiesImage from "../../assets/images/oopsies.png";
+import { OopsiesImage } from "../../assets/images/ImagesInit";
 
 const PageNotFoundBody = () => {
   return (

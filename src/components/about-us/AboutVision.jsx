@@ -1,5 +1,6 @@
 import React from "react";
-import MotherDaughterImage from "../../assets/images/pexels-cottonbro-3992137.jpg";
+
+import { MotherDaughterImage } from "../../assets/images/ImagesInit";
 
 const AboutVision = () => {
   return (

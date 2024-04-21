@@ -1,5 +1,6 @@
 import React from "react";
-import AboutSectionDoctorsImage from "../../assets/images/about-us-doctors.jpg";
+
+import { AboutSectionDoctorsImage } from "../../assets/images/ImagesInit";
 
 const AboutWelcome = () => {
   return (

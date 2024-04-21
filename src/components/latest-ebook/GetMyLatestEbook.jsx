@@ -1,8 +1,10 @@
 import React from "react";
 
-import BookImage1 from "../../assets/images/book-1.png";
-import BookImage2 from "../../assets/images/book-2.png";
-import BookImage3 from "../../assets/images/book-3.png";
+import {
+  BookImage1,
+  BookImage2,
+  BookImage3,
+} from "../../assets/images/ImagesInit";
 
 const GetMyLatestEbook = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 
 import { FaPlay } from "react-icons/fa6";
+import { Video } from "../../assets/images/ImagesInit";
 import RecentPostInfo from "../recent-posts/RecentPostInfo";
-import Video from "../../assets/videos/pexels-solodsha-8604873.mp4";
 
 const RecentPostVideo = () => {
   const title = "How to make strawberry",

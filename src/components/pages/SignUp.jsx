@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar from "../navbar/Navbar";
 
-import BalanceYourDietImage from "../../assets/images/balance-your-diet.jpg";
+import Navbar from "../navbar/Navbar";
+import { BalanceYourDietImage } from "../../assets/images/ImagesInit";
 
 const SignUp = () => {
   return (
@@ -18,7 +18,7 @@ const SignUp = () => {
               className="signup__input-widget signup__input-widget--name"
               placeholder="Peter Justin Griffin"
               name=""
-              id=""
+              id="signup-name"
             />
           </div>
 
@@ -29,7 +29,7 @@ const SignUp = () => {
               className="signup__input-widget signup__input-widget--email"
               placeholder="peterjustingriffin@gmail.com"
               name=""
-              id=""
+              id="signup-email"
             />
           </div>
 
@@ -40,7 +40,7 @@ const SignUp = () => {
               className="signup__input-widget signup__input-widget--password"
               placeholder="********"
               name=""
-              id=""
+              id="signup-password"
             />
           </div>
 
@@ -51,7 +51,7 @@ const SignUp = () => {
               className="signup__input-widget signup__input-widget--password"
               placeholder="********"
               name=""
-              id=""
+              id="signup-confirm-password"
             />
           </div>
 

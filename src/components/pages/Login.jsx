@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import Navbar from "../navbar/Navbar";
-import BalanceYourDietImage from "../../assets/images/balance-your-diet.jpg";
+import { BalanceYourDietImage } from "../../assets/images/ImagesInit";
 
 const Login = () => {
   return (
@@ -20,7 +20,7 @@ const Login = () => {
                 className="login__input-widget login__input-widget--email"
                 placeholder="josh@gmail.com"
                 name=""
-                id=""
+                id="login-email"
               />
             </div>
 
@@ -31,7 +31,7 @@ const Login = () => {
                 className="login__input-widget login__input-widget--password"
                 placeholder="*******"
                 name=""
-                id=""
+                id="login-password"
               />
             </div>
 
