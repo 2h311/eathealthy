@@ -68,7 +68,7 @@ html {
   gap: 1.2rem;
 }
 .about__welcome-down {
-  height: 82rem;
+  height: 80rem;
   overflow: hidden;
   border-radius: 4.5px;
 }
@@ -84,9 +84,47 @@ html {
   border-radius: 4.5px;
 }
 .about__welcome-h2 {
-  font-size: 2.45rem;
+  font-size: 1.65rem;
   font-weight: 500;
   color: #534847;
+}
+.about__vision {
+  width: 100%;
+  margin-bottom: 10rem;
+}
+.about__vision-h2 {
+  color: #534847;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 16.25px;
+  border-bottom: 4.5px solid #1e5dbc;
+  display: inline-block;
+}
+.about__vision-text {
+  font-size: 1.45rem;
+  color: #534847;
+  line-height: 1.85rem;
+}
+.about__vision-inner {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.about__vision-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4.5px;
+}
+.about__vision-left {
+  width: 30%;
+  height: 32rem;
+}
+.about__vision-right {
+  width: 40%;
+  text-align: justify;
 }
 
 .contact {

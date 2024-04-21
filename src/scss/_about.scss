@@ -28,7 +28,7 @@
 
     &-down {
       //   border: 1px solid green;
-      height: 82rem;
+      height: 80rem;
       overflow: hidden;
       border-radius: 4.5px;
     }
@@ -48,8 +48,55 @@
   }
 
   &__welcome-h2 {
-    font-size: 2.45rem;
+    font-size: 1.65rem;
     font-weight: 500;
     color: $color-grey;
+  }
+
+  &__vision {
+    width: 100%;
+    // border: 1px solid orangered;
+    margin-bottom: 10rem;
+
+    &-h2 {
+      color: $color-grey;
+      font-size: 2.25rem;
+      font-weight: 600;
+      margin-bottom: 16.25px;
+      border-bottom: 4.5px solid $color-primary;
+      display: inline-block;
+    }
+
+    &-text {
+      font-size: 1.45rem;
+      color: $color-grey;
+      line-height: 1.85rem;
+    }
+
+    &-inner {
+      margin: 0 auto;
+      width: $default-inner-width;
+      //   border: 1px solid green;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+    }
+
+    &-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 4.5px;
+    }
+
+    &-left {
+      width: 30%;
+      height: 32rem;
+    }
+
+    &-right {
+      width: 40%;
+      text-align: justify;
+    }
   }
 }

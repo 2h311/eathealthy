@@ -11,7 +11,7 @@ Photo by Tima Miroshnichenko: https://www.pexels.com/photo/three-doctors-wearing
 Photo by George Dolgikh: https://www.pexels.com/photo/woman-taking-selfie-while-smiling-1310522/
 Photo by Andrea Piacquadio: https://www.pexels.com/photo/photo-of-a-happy-woman-3772519/
 Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-in-yellow-long-sleeve-shirt-taking-a-selfie-3775168/
-
+Photo by cottonbro studio: https://www.pexels.com/photo/girl-in-yellow-shirt-decorating-brown-cake-3992381/
 
 Video by solod_sha: https://www.pexels.com/video/pouring-milk-on-coffee-8604873/
 
