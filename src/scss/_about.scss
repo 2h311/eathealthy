@@ -27,7 +27,7 @@
     }
 
     &-down {
-    //   border: 1px solid green;
+      //   border: 1px solid green;
       height: 82rem;
       overflow: hidden;
       border-radius: 4.5px;
@@ -37,6 +37,13 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+
+    &-you {
+      background-color: $color-primary;
+      color: $color-white;
+      padding: 0.45rem 0.85rem;
+      border-radius: 4.5px;
     }
   }
 
