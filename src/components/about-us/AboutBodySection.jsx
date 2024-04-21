@@ -1,5 +1,7 @@
 import React from "react";
+
 import ContactBodyJumbotron from "../contact/ContactJumbotron";
+import Teams from "./Teams";
 import AboutSectionDoctorsImage from "../../assets/images/about-us-doctors.jpg";
 import MotherDaughterImage from "../../assets/images/pexels-cottonbro-3992137.jpg";
 
@@ -54,21 +56,7 @@ const AboutBodySection = () => {
           </div>
         </div>
       </div>
-
-      <div className="team">
-        <div className="team__inner">
-          <div className="team__up">
-            <h2 className="team__h2">Meet the Team</h2>
-          </div>
-          <div className="team__down">
-            <div className="team-member">
-              <img src="" alt="Peter Justin" />
-              <p>Peter Justin</p>
-              <small>CEO</small>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Teams />
     </section>
   );
 };

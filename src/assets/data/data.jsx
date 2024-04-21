@@ -2,6 +2,10 @@ import PexelsAshImage from "../../assets/images/pexels-ash-376464.jpg";
 import PexelsJohnImage from "../../assets/images/pexels-john-finkelstein-1630588.jpg";
 import PexelsMonicoreImage from "../../assets/images/pexels-monicore-1391487.jpg";
 
+import TeamMember1Image from "../../assets/images/team-1.jpg";
+import TeamMember2Image from "../../assets/images/team-2.jpg";
+import TeamMember3Image from "../../assets/images/team-3.jpg";
+
 const navbarLinks = [
   { href: "/", text: "home" },
   { href: "/about", text: "about us" },
@@ -67,4 +71,28 @@ const ratingTextContent = [
   { number: "12", text: "dieticians", htmlCharChode: "43" },
 ];
 
-export { navbarLinks, recentPosts, testimonialData, ratingTextContent };
+const teamMembersData = [
+  {
+    name: "Peter Justin Griffin",
+    title: "CEO",
+    imageLink: TeamMember1Image,
+  },
+  {
+    name: "Megalodon Griffin",
+    title: "CTO",
+    imageLink: TeamMember2Image,
+  },
+  {
+    name: "Cleveland Brown Junior",
+    title: "CFO",
+    imageLink: TeamMember3Image,
+  },
+];
+
+export {
+  navbarLinks,
+  recentPosts,
+  testimonialData,
+  ratingTextContent,
+  teamMembersData,
+};

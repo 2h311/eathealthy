@@ -111,7 +111,7 @@
   justify-content: end;
 
   &__h2 {
-    font-size: 1.85rem;
+    font-size: 1.95rem;
     color: $color-grey;
     font-weight: 800;
   }
@@ -119,6 +119,42 @@
   &__inner {
     width: $default-inner-width;
     height: 80%;
+    display: inherit;
+    flex-direction: column;
+    gap: 1.2rem;
     // border: 1px solid #333;
+  }
+
+  &__down {
+    display: flex;
+    gap: 1rem;
+  }
+
+  &-member {
+    width: 16rem;
+    height: 20rem;
+    // border: 1px solid #333;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4.5px;
+  }
+
+  &__name {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  &__name,
+  &__title {
+    color: $color-grey;
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 1rem;
   }
 }

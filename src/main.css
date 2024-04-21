@@ -137,13 +137,41 @@ html {
   justify-content: end;
 }
 .team__h2 {
-  font-size: 1.85rem;
+  font-size: 1.95rem;
   color: #534847;
   font-weight: 800;
 }
 .team__inner {
   width: 80%;
   height: 80%;
+  display: inherit;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.team__down {
+  display: flex;
+  gap: 1rem;
+}
+.team-member {
+  width: 16rem;
+  height: 20rem;
+}
+.team__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4.5px;
+}
+.team__name {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.team__name, .team__title {
+  color: #534847;
+}
+.team__title {
+  font-weight: 800;
+  font-size: 1rem;
 }
 
 .contact {
