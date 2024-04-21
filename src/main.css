@@ -127,6 +127,25 @@ html {
   text-align: justify;
 }
 
+.team {
+  width: 100%;
+  height: 43rem;
+  background-color: #faf3eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.team__h2 {
+  font-size: 1.85rem;
+  color: #534847;
+  font-weight: 800;
+}
+.team__inner {
+  width: 80%;
+  height: 80%;
+}
+
 .contact {
   width: 100%;
 }
