@@ -48,11 +48,39 @@ html {
   width: 100%;
 }
 .about-jumbotron__text {
-  font-size: 4.65rem;
+  font-size: 4.95rem;
   color: #1e5dbc;
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+.about__welcome {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__welcome-inner {
+  margin: 6.25rem 0;
+  width: 80%;
+  display: inherit;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.about__welcome-down {
+  height: 82rem;
+  overflow: hidden;
+  border-radius: 4.5px;
+}
+.about__welcome-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about__welcome-h2 {
+  font-size: 2.45rem;
+  font-weight: 500;
+  color: #534847;
 }
 
 .contact {

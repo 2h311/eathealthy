@@ -9,9 +9,9 @@ const Contact = () => {
     <section className="contact">
       <Navbar />
       <ContactJumbotron>
-        <p className="gloock-regular contact-jumbotron__text">
+        <h1 className="gloock-regular contact-jumbotron__text">
           We care wherever you need it
-        </p>
+        </h1>
       </ContactJumbotron>
       <ContactBody />
       <Footer />
