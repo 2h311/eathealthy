@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 
 import Navbar from "../navbar/Navbar";
 import { BalanceYourDietImage } from "../../assets/images/ImagesInit";
+import useDocumentTitle from "../dry/useDocumentTitle";
 
 const SignUp = () => {
+  useDocumentTitle("EatHealthy — Sign Up");
   return (
     <section className="signup">
       <Navbar />

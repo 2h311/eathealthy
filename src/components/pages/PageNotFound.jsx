@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import Footer from "../footer/Footer";
 import { OopsiesImage } from "../../assets/images/ImagesInit";
+import useDocumentTitle from "../dry/useDocumentTitle";
 
 const PageNotFoundBody = () => {
   return (
@@ -27,6 +28,9 @@ const PageNotFoundBody = () => {
 };
 
 const PageNotFound = () => {
+  useDocumentTitle(
+    "EatHealthy — Sorry we cant find the page or resource you are looking for"
+  );
   return (
     <section className="notfound">
       <Navbar />
