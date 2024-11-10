@@ -1,6 +1,4 @@
-(EatHealthy)[https://eathealthy-lovat.vercel.app/] is a web application focused on promoting healthy eating habits. It provides information on nutrition, recipes, meal planning, and tips for maintaining a balanced diet. 
-This is your resource for people looking to improve their dietary choices. It offers guidance for making healthier food selections and creating nutritious meals.
-
+[EatHealthy](https://eathealthy-lovat.vercel.app/) is a web application that promotes healthy eating habits. It provides information on nutrition, recipes, meal planning, and tips for maintaining a balanced diet. This is your resource for people looking to improve their dietary choices. It offers guidance for making healthier food selections and creating nutritious meals.
 
 Static Assets Credits.
 Photo by Lum3n from Pexels: https://www.pexels.com/photo/rice-with-zucchini-soft-boiled-egg-and-parsley-in-green-ceramic-plate-1410235/
